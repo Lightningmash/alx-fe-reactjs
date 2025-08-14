@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import WelcomeMessage from "./components/WelcomeMessage";
 import Header from "./components/Header";
@@ -27,7 +25,7 @@ function App() {
       <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       <Counter />
 
-      {/* Provide userData to ProfilePage via context */}
+      {/* Provide userData to the entire subtree */}
       <UserContext.Provider value={userData}>
         <ProfilePage />
       </UserContext.Provider>
