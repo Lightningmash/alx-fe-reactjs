@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import AddRecipeForm from './components/AddRecipeForm';
 import RecipeList from './components/RecipeList';
-import RecipeDetails from './components/RecipeDetails';
+import RecipeDetails from './components/RecipeDetail';
 
 function App() {
   return (
