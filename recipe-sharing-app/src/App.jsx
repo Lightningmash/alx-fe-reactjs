@@ -23,7 +23,7 @@ function App() {
             </>
           }
         />
-        <Route path="/recipes/:id" element={<RecipeDetails />} />
+        <Route path="/recipes/:id" element={<RecipeDetail />} />
       </Routes>
     </div>
   );
